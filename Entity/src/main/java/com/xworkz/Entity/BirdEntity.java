@@ -6,7 +6,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table (name="birdDetails_Table")
+@Table (name="birddetails_Table")
 public class BirdEntity{
     @Column(name="C_ID")
     @Id

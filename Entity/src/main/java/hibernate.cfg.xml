@@ -9,6 +9,7 @@
 		<property name="hibernate.connection.username">root</property>
 		<property name="hibernate.connection.password">kariya@2021</property>
 		<property name="hibernate.dialect">MySQL8</property>
+		<mapping class="com.xworkz.Entity.BirdEntity"/>
 		
 	</session-factory>
 </hibernate-configuration>
