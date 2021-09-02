@@ -16,7 +16,7 @@
 		<property name="hibernate.hikari.idleTimeout">200000</property>
 		
 		<property name="hibernate.show_sql">true</property>
-		<mapping class="com.xworkz.camera.entity.Camer aEntity"/>
+		<mapping class="com.xworkz.camera.entity.CameraEntity"/>
 
 		
 	</session-factory>

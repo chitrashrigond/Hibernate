@@ -11,7 +11,7 @@ import com.xworkz.camera.entity.CameraEntity;
 public class cameraTester {
 
 	public static void main(String[] args) {
-		 CameraEntity cn=new CameraEntity(5,"Fujifilm","FujifilmX100","Digital",23,"black",150000,true,1200,3);
+		 CameraEntity cn=new CameraEntity(8,"Fujifilm","FujifilmX100","Digital",23,"black",150000,true,1200,3);
 		CameraDAO dao = new CameraDAOImpl();
 
 		// dao.save(cn);
@@ -24,7 +24,7 @@ public class cameraTester {
 
 		List<CameraEntity> lentity = new ArrayList<CameraEntity>();
 		lentity.add(cn);
-		//dao.saveList(lentity);
+		dao.saveList(lentity);
 		dao.deleteList(lentity);
 	
 	}
